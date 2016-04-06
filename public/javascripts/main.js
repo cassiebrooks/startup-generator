@@ -6,4 +6,4 @@ function getRandomInt(min, max) {
 seed = getRandomInt(10000, 99999);
 console.log(seed);
 
-window.location.replace("index.html/" + seed);
+window.location.replace("/" + seed);
