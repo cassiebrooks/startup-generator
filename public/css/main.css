@@ -1,8 +1,15 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+* {
+  box-sizing: border-box; }
 
-a {
-  color: #00B7FF; }
+body, html {
+  padding: 0;
+  margin: 0;
+  font: 14px sans-serif;
+  color: #323232; }
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex; }
 
 /*# sourceMappingURL=main.css.map */

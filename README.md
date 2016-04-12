@@ -1,7 +1,10 @@
 ##Startup Generator
 
+Generates a generic startup-type website based on a random seed.
+
 ###Usage
-(Assuming NPM & Node already installed)
+Assuming NPM & Node already installed
+(Nodemon reloads the server whenever changes occur)
 
 ```
 git clone git@github.com:cassiebrooks/startup-generator.git
@@ -11,5 +14,10 @@ npm install -g nodemon
 nodemon bin/www app.js
 ```
 
-(Nodemon reloads the server whenever changes occur)
+###Probabilities
 
+| Probability | Feature                      |
+|-------------|------------------------------|
+| 50%         | Logo will be text-based only |
+| 80%         | There will be a navbar       |
+|             |                              |

@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{seed}
+  #page
 
-  button(id="newSite") Another!
+  script(type="text/javascript").
+    var seed = #{seed};

@@ -1,0 +1,36 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font: 14px sans-serif;
+  color: #323232;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+
+
+.hero {
+  background-image: url('https://source.unsplash.com/category/nature/1400x700');
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  border: 10px solid orange;
+  text-align: center;
+  &.layout-1 {
+  }
+  &.layout-2 {
+  }
+  &.layout-3 {
+  }
+}
+
+
