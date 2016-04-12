@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   box-sizing: border-box; }
 
@@ -11,5 +12,13 @@ nav ul {
   list-style-type: none;
   padding-left: 0;
   display: flex; }
+
+.hero {
+  background-image: url("https://source.unsplash.com/category/nature/1400x700");
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  border: 10px solid pink;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
