@@ -18,19 +18,49 @@ nav ul {
 }
 
 
+
 .hero {
-  background-image: url('https://source.unsplash.com/category/nature/1400x700');
   background-size: cover;
-  height: 700px;
+  height: 600px;
   width: 100%;
-  border: 10px solid pink;
   text-align: center;
+  padding-top: 200px;
   &.layout-1 {
+    background-image: url('https://source.unsplash.com/category/nature/1400x700');
   }
   &.layout-2 {
+    background-image: url('https://source.unsplash.com/category/technology/1400x700');
   }
   &.layout-3 {
+    background-image: url('https://source.unsplash.com/category/buildings/1400x700');
   }
+}
+
+.hero__title {
+  color: #eeeeee;
+  background-color: rgba(0,0,0,0.6);
+  display: inline-block;
+  padding: 30px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.services {
+  display: flex;
+  text-align: center;
+  flex-basis: 1;
+  justify-content: space-between;
+}
+
+.service--text {
+  font-size: 30px;
+}
+
+i.service--icon {
+  font-size: 48px;
 }
 
 
